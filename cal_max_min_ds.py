@@ -99,5 +99,3 @@ if __name__ == '__main__':
         geo_prob_dict[i] = geo_permute_prob
     a = sorted(geo_prob_dict.items(), key=lambda item:item[1], reverse=True)
     print("sort:", a)
-    nx.draw(tree_ka, node_size=200, with_labels=True)
-    plt.show()

@@ -221,7 +221,9 @@ def gnn_test_pos(train_patch_tree: dgl, test_patch_tree):
 
         val_val_list.append(val_r2_loss.item())
 
-    node_range = [50,100, 250, 500, 1000, 2500, 5000, 8000, 10000]
+    # node_range = [50,100, 250, 500, 1000, 2500, 5000, 8000, 10000]
+    node_range = [50,100]
+
     node_num_list = []
     eval_position_list = []
     for node_num in node_range:
@@ -266,7 +268,8 @@ def gnn_top_k_overlap(train_patch_tree: dgl, test_patch_tree):
 
         val_val_list.append(val_r2_loss.item())
 
-    node_range = [50,100, 250, 500, 1000, 2500]
+    # node_range = [50,100, 250, 500, 1000, 2500]
+    node_range = [50,100]
     for node_num in node_range:
         print("node_range:", node_num)
         node_num_list = []
