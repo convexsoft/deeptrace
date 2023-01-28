@@ -27,4 +27,4 @@ After we set up the environment and processed the training data, using "model.py
 The Hong Kong COVID-19 cluster data in February 2020 comes from a Nature Medicine paper  "Clustering and superspreading potential of SARS-CoV-2 infections in Hong Kong" (Adam, Dillon C, and Wu, Peng, etc., 2020).
 The Hong Kong COVID-19 pandemic raw data (from January 31, 2022, to February 3, 2022) is available from the Hong Kong government's public sector open data portal (https://data.gov.hk/en-data/dataset/hk-dh-chpsebcddr-novel-infectious-agent).
 The Taiwan COVID-19 pandemic raw data (from March 19, 2022, to April 1, 2022) is available from the press releases by the Taiwan Centers of Disease Control (Taiwan CDC: https://www.cdc.gov.tw/En ).
-The COVID-19 pandemic processed data is in the "data" folder, and the raw data processing implementation is in the "hongkongdata.py". 
+The COVID-19 pandemic processed data is in the "data" folder, and the raw data processing implementations are in the "hk_data.py" and "tw_data.py". 
